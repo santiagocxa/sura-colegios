@@ -1,12 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import {render} from 'react-dom';
+import Playlist from './playlist.js'; 
+import data from './api.json';
+//import img from './video/0001.png'
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+const app = document.getElementById('content');
+//import App from './App';
+//import * as serviceWorker from './serviceWorker';
+//ReactDOM.render(/*<App />*/ <h1>Hola Mundo1 </h1>, document.getElementById('content'));
+//render(<Media title="Inscribir Estudiante..." nombre="Santiago " image={img}/>, app);
+//serviceWorker.unregister();
+
+
+ render(<Playlist data={data}/>, app )
