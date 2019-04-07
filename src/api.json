@@ -11,15 +11,55 @@
               "id":1,
               "title":"Inscribir Estudiante",
               "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov",
-              "nombre":"marco1"
+              "src":"./video/inscribirEstGest.mov"
             },
             {
               "id":2,
               "title":"Matricular Curso",
-              "image":"./imagevideo/matricularCurso.png",
-              "src":"./video/inscribirEstGest.mov",
-              "nombre":"marco2"
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
+            },
+            {
+              "id":3,
+              "title":"Reportes",
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
+            },
+            {
+              "id":4,
+              "title":"Secciones",
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
+            },
+            {
+              "id":5,
+              "title":"Cargar Logo",
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
+            },
+            {
+              "id":6,
+              "title":"Matricular Curso",
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
+            },
+            {
+              "id":7,
+              "title":"Cargar Logo",
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
+            },
+            {
+              "id":8,
+              "title":"Reportes",
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
+            },
+            {
+              "id":9,
+              "title":"Inscribir Estudiante",
+              "image":"./imagevideo/inscribirEstGest.png",
+              "src":"./video/inscribirEstGest.mov"
             }
           ]
         },

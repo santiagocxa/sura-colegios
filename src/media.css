@@ -1,59 +1,124 @@
+body {
+  margin: 0;
+}
+
+
 .Capsule{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(10px, auto);
 }
 
 .Logo{
   grid-column: 1 / 1;
   grid-row: 1;
-  border: red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+ 
+}
+
+.Line{
+  grid-column: 1 / 6;
+  grid-row: 2 / 2 ;
+  height: 30px;
+  width: auto;
+  background-color: rgb(7, 182, 30);
 }
 
 .Themes{
   grid-column: 1;
-  grid-row: 2 / 4;
-  border: red solid;
+  grid-row: 3 / 5;
   text-align: center;
   font-family: PT Sans;
   width: 100%;
-
 }
+
+
 
 .Playlist{
-  grid-column: 2/5;
-  grid-row: 2/4;
-  border: solid;
-  width: 100%;
+  grid-column: 2/ 5;
+  grid-row: 3/5;
+  width: auto;
+  border: rgb(218, 222, 224) 1px solid;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
 }
 
+
 .Footer{
-  grid-column: 1 / 5;
-  grid-row: 4;
-  border: solid;
-  height: 20px;
+  grid-column: 1 / 6;
+  grid-row: 6;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(236, 235, 235);
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
 }
 
 .Media{
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
-  border-radius: 20px 20px 20px 20px;
   border: 5px solid transparent;
+  text-align: center;
 }
 
 .Media-image{
-  border-radius: 20px 20px 20px 20px;
   height: auto;
   width: auto;
   vertical-align: middle;
+  height: auto;
+  width: auto;
 }
+
+.Media-playlist{  
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 30px 0 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.Media-playlist-image{
+  border-radius: 3px 3px 3px 3px;
+  border: 0px;
+  height: auto;
+  width: auto;
+  vertical-align: middle;
+  height: 230px;
+  width: 230px;
+  
+}
+
+.Text-playlist{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 0px 0px 2px 2px;
+  border: transparent 0px;
+  height: 30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
 
 .Media-text{
   background-color: rgb(236, 236, 226);
   text-align: center;
-  text-decoration-color: blue;
   border-radius: 20px 20px 20px 20px;
   align-items: flex-end;
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom';
-import Playlist from './playlist.js'; 
+import App from './content.js'; 
 import data from './api.json';
 //import img from './video/0001.png'
 
 
 
-const app = document.getElementById('content');
+const content = document.getElementById('content');
 //import App from './App';
 //import * as serviceWorker from './serviceWorker';
 //ReactDOM.render(/*<App />*/ <h1>Hola Mundo1 </h1>, document.getElementById('content'));
@@ -14,4 +14,7 @@ const app = document.getElementById('content');
 //serviceWorker.unregister();
 
 
- render(<Playlist data={data}/>, app )
+ render(<App data={data}/>, content )
+
+
+ 
