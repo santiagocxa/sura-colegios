@@ -1,22 +1,20 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import './media.css'
+import './media.css';
 
 class Media extends Component{
     render(){
         return(
-        <div className="Media" onClick={this.handleClick}>
+        <div className="Media">
+          <div>
             <img className="Media-image"
               src={this.props.image}
               alt=""
             />
+            <p className="Media-text">{this.props.title}</p>
+          </div>
         </div>
       )
     }
-}
-
-Media.propTypes = {
-  title: PropTypes.string
 }
 
 export default Media;

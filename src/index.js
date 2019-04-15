@@ -1,8 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
-import App from './content.js'; 
 import data from './api.json';
-//import img from './video/0001.png'
+import Home from './containers/home';
+
 
 
 
@@ -14,7 +14,7 @@ const content = document.getElementById('content');
 //serviceWorker.unregister();
 
 
- render(<App data={data}/>, content )
+ render(<Home data={data} />, content )
 
 
  

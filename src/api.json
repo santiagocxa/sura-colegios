@@ -1,83 +1,84 @@
 {
-  "index":[
-    {
-      "categories":[
-        {
-          "id":1,
-          "title":"Colegio Gestion del Riesgo",
-          "image":"./imagevideo/colGest.jpg",
-          "playlist":[
-            {
-              "id":1,
-              "title":"Inscribir Estudiante",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":2,
-              "title":"Matricular Curso",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":3,
-              "title":"Reportes",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":4,
-              "title":"Secciones",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":5,
-              "title":"Cargar Logo",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":6,
-              "title":"Matricular Curso",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":7,
-              "title":"Cargar Logo",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":8,
-              "title":"Reportes",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            },
-            {
-              "id":9,
-              "title":"Inscribir Estudiante",
-              "image":"./imagevideo/inscribirEstGest.png",
-              "src":"./video/inscribirEstGest.mov"
-            }
-          ]
-        },
-        {
-          "id":2,
-          "title":"Colegios Viales",
-          "image":"./imagevideo/colVial.jpg",
-          "playlist":[
-            {
-              "id":1,
-              "name":"Inscribir Estudiante",
-              "image":"./imagevideo/inscribirEstVial.png",
-              "src":"./video/inscribirEstVialt.mov"
-            }
-          ]
-        }
-      ]
-    }
-
-  ]
+"colleges":[
+  {
+    "id":1,
+    "title":"Colegio Gestion del Riesgo",
+    "image":"./imagevideo/colGest.jpg",
+    "playlist":[
+      {
+        "id":1,
+        "title":"Inscribir Estudiante",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":2,
+        "title":"Matricular Curso",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":3,
+        "title":"Reportes",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":4,
+        "title":"Secciones",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":5,
+        "title":"Cargar Logo",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":6,
+        "title":"Matricular Curso",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":7,
+        "title":"Cargar Logo",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":8,
+        "title":"Reportes",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      },
+      {
+        "id":9,
+        "title":"Inscribir Estudiante",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstGest.mov"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "title":"Colegios Viales",
+    "image":"./imagevideo/colVial.jpg",
+    "playlist":[
+      {
+        "id":1,
+        "title":"Viales Inscribir Estudiante",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstVialt.mov"
+      },
+      {
+        "id":2,
+        "title":"Viales Reportes",
+        "image":"./imagevideo/inscribirEstGest.png",
+        "src":"./video/inscribirEstVialt.mov"
+      }
+    ]
+  }
+]
 }
