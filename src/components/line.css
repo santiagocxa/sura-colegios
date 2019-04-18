@@ -1,7 +1,7 @@
-.Line{
-    grid-column: 1 / 6;
-    grid-row: 2 / 2 ;
-    height: 30px;
-    width: auto;
-    background-color: rgb(7, 182, 30);
-  }
+.Line {
+  grid-column: 1 / 6;
+  grid-row: 2 / 2;
+  height: 30px;
+  width: auto;
+  background-color: rgb(7, 182, 30);
+}

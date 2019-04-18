@@ -6,33 +6,33 @@ import Themes from '../components/themes';
 import Colleges from '../components/colleges';
 import Footer from '../components/footer';
 
-
-
-
 class Home extends Component {
-    state = {
-        listaoculta:false,
-    }
-    openClick = (event) =>{
-        this.setState({
-            listaoculta: true,
-        })
-    }
+  constructor(props) {
+    super(props);
+    this.openClick = this.openClick.bind(this);
+  }
+  state = {
+    hideList: false
+  };
+  openClick = containerPlayList => {
+    this.setState({
+      containerPlayList,
+      hideList: true
+    });
+    console.log(this);
+  };
 
-    render(){
-        return(
-            <HomeLayout>
-                <Logo/>
-                <Line/>
-                <Themes 
-                    themes={this.props.data.colleges}
-                    openClick={this.openClick}
-                />
-                <Colleges colleges={this.props.data.colleges} listaoculta={this.state.listaoculta}/>
-                <Footer/>
-            </HomeLayout>
-        )
-    }
+  render() {
+    return (
+      <HomeLayout>
+        <Logo />
+        <Line />
+        <Themes themes={this.props.data.colleges} openClick={this.openClick} />
+        <Colleges containerList={this.state.containerPlayList} />
+        <Footer />
+      </HomeLayout>
+    );
+  }
 }
 
 export default Home;

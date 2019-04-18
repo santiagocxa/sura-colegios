@@ -1,16 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './themes-image.css';
 
-function ThemesImage(props){
-    return(
-        <div className="ThemesImage" onClick={props.openClick}>
-            <img 
-                className="Image"
-                src={props.image}
-                alt=""
-            />
-        </div>
-    )
+function ThemesImage({ openListClick, item }) {
+  const openClick = () => {
+    openListClick(item);
+  };
+  return (
+    <div className="ThemesImage">
+      <img onClick={openClick} className="Image" src={item.image} alt="" />
+    </div>
+  );
 }
 
-export default ThemesImage
+ThemesImage.propTypes = {
+  props: PropTypes.object
+};
+
+export default ThemesImage;
