@@ -1,19 +1,29 @@
 import React from 'react';
 import College from '../components/college';
+import VideoPlayer from '../containers/video-player';
 import './colleges.css';
-import Presentacion from './presentacion';
 
 function Colleges(props) {
   return (
     <div className="Colleges">
-      {/* <pre>{JSON.stringify(props.containerList, null, 2)}</pre> // pinta el objeto en html.  */}
-      <div>
-        <p>presentacion</p>
-      </div>
-      {props.containerList &&
+      {!props.hidevideo ? (
+        <VideoPlayer
+          title="Colegios Viales ARL SURA"
+          src="https://colegiosvialesarlsura.com/videos/colegios_viales_promo.mp4"
+          autoplay={true}
+        />
+      ) : (
+        props.containerList &&
         props.containerList.playlist.map(item => {
-          return <College item={item} key={item.id} />;
-        })}
+          return (
+            <College
+              item={item}
+              key={item.id}
+              openVideoPlayer={props.openVideoPlayerClick}
+            />
+          );
+        })
+      )}
     </div>
   );
 }

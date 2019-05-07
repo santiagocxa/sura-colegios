@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
   return (
     <div className="Footer">
-      <p>By: Santiago Sucerquia </p>
+      <p>© Sura Colegios 2019. Santiago Sucerquia </p>
     </div>
   );
 }

@@ -5,21 +5,35 @@ import Line from '../components/line';
 import Themes from '../components/themes';
 import Colleges from '../components/colleges';
 import Footer from '../components/footer';
+import VideoMediaPlayerContainer from '../containers/video-media-player';
+import VideoMediaPlayer from '../components/video-media-player';
+import VideoPlayer from './video-player';
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.openClick = this.openClick.bind(this);
-  }
   state = {
-    hideList: false
+    hideList: true,
+    hidevideo: false
   };
+
   openClick = containerPlayList => {
     this.setState({
       containerPlayList,
-      hideList: true
+      hideList: false,
+      hidevideo: true
     });
-    console.log(this);
+  };
+
+  openVideoPlayerClick = contentVideoPlayer => {
+    this.setState({
+      contentVideoPlayer,
+      unhideVideoPlayer: true
+    });
+  };
+
+  closeVideoPlayerClick = event => {
+    this.setState({
+      unhideVideoPlayer: false
+    });
   };
 
   render() {
@@ -28,8 +42,24 @@ class Home extends Component {
         <Logo />
         <Line />
         <Themes themes={this.props.data.colleges} openClick={this.openClick} />
-        <Colleges containerList={this.state.containerPlayList} />
+        <Colleges
+          containerList={this.state.containerPlayList}
+          hidevideo={this.state.hidevideo}
+          openVideoPlayerClick={this.openVideoPlayerClick}
+        />
         <Footer />
+        {this.state.unhideVideoPlayer && (
+          <VideoMediaPlayerContainer>
+            <VideoMediaPlayer
+              closeVideoPlayerClick={this.closeVideoPlayerClick}
+            >
+              <VideoPlayer
+                title={this.state.contentVideoPlayer.title}
+                src={this.state.contentVideoPlayer.src}
+              />
+            </VideoMediaPlayer>
+          </VideoMediaPlayerContainer>
+        )}
       </HomeLayout>
     );
   }

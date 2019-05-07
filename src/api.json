@@ -3,80 +3,110 @@
     {
       "id": 1,
       "title": "Colegio Gestion del Riesgo",
-      "image": "./imagevideo/colGest.jpg",
+      "image": "./imagevideo/colegio_gestion_riesgo.jpg",
       "playlist": [
         {
           "id": 1,
-          "title": "Inscribir Estudiante",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Ingreso Como Administrador",
+          "image": "./imagevideo/gestion_riesgo/inscribirEstGest.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/admin_gest.mp4"
         },
         {
           "id": 2,
-          "title": "Matricular Curso",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Ingreso Como Estudiante",
+          "image": "./imagevideo/gestion_riesgo/ingreso_estudiante_gest.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/ingreso_est_gest.mp4"
         },
         {
           "id": 3,
-          "title": "Reportes",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Inscribir Estudiante Y Matricular Curso",
+          "image": "./imagevideo/gestion_riesgo/crear_estudiante_gest.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/reg_est_gest.mp4"
         },
         {
           "id": 4,
-          "title": "Secciones",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Editar Estudiante / Ver Certificados",
+          "image": "./imagevideo/gestion_riesgo/editar_estudiante_gest.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/ver_certificado_gest.mp4"
         },
         {
           "id": 5,
-          "title": "Cargar Logo",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Cargar Firma Para Certificados",
+          "image": "./imagevideo/gestion_riesgo/cagar_firma.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/cargar_firma_gest.mp4"
         },
         {
           "id": 6,
-          "title": "Matricular Curso",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Crear Curso Sin Archivos",
+          "image": "./imagevideo/gestion_riesgo/crear_curso.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/curso_sin_archivo.mp4"
         },
         {
           "id": 7,
-          "title": "Cargar Logo",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Crear Curso Con Archivos",
+          "image": "./imagevideo/gestion_riesgo/crear_curso.png",
+          "src": ""
         },
         {
           "id": 8,
-          "title": "Reportes",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Editar Curso",
+          "image": "./imagevideo/gestion_riesgo/editar_curso.png",
+          "src": ""
         },
         {
           "id": 9,
-          "title": "Inscribir Estudiante",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstGest.mov"
+          "title": "Matricular Estudiantes (MASIVO)",
+          "image": "./imagevideo/gestion_riesgo/importar_estudiate_gest.png",
+          "src": ""
+        },
+        {
+          "id": 10,
+          "title": "Eliminar/Despublicar Estudiantes",
+          "image": "./imagevideo/gestion_riesgo/eliminar_estudiante_gest.png",
+          "src": ""
+        },
+        {
+          "id": 11,
+          "title": "Reportes",
+          "image": "./imagevideo/gestion_riesgo/reportes_gest.png",
+          "src": ""
         }
       ]
     },
     {
       "id": 2,
       "title": "Colegios Viales",
-      "image": "./imagevideo/colVial.jpg",
+      "image": "./imagevideo/colegio_vial.jpg",
       "playlist": [
         {
           "id": 1,
-          "title": "Viales Inscribir Estudiante",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstVialt.mov"
+          "title": "Ingreso Como Administrador",
+          "image": "./imagevideo/vial/admin_vial.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/admin_vial.mp4"
         },
         {
           "id": 2,
-          "title": "Viales Reportes",
-          "image": "./imagevideo/inscribirEstGest.png",
-          "src": "./video/inscribirEstVialt.mov"
+          "title": "Ingreso Como Estudiante",
+          "image": "./imagevideo/vial/est_vial.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/ingreso_est_vial.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Matricular Estudiante y Curso",
+          "image": "./imagevideo/vial/reg_vial.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/reg_est_vial.mp4"
+        },
+        {
+          "id": 5,
+          "title": "Matricular Estudiante y Curso (MASIVO)",
+          "image": "./imagevideo/vial/import_vial.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/masivo_vial.mp4"
+        },
+        {
+          "id": 6,
+          "title": "Reporte De Estudiantes",
+          "image": "./imagevideo/vial/report_vial.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/reporte_vial.mp4"
         }
       ]
     }

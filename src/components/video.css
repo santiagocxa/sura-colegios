@@ -1,0 +1,9 @@
+.Video {
+  height: 100%;
+}
+
+.Video-content {
+  padding: 15px;
+  width: 90%;
+  height: 90%;
+}
