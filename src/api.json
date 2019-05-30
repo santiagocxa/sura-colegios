@@ -45,31 +45,25 @@
           "id": 7,
           "title": "Crear Curso Con Archivos",
           "image": "./imagevideo/gestion_riesgo/crear_curso.png",
-          "src": ""
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/curso_con_archivos.mp4"
         },
         {
           "id": 8,
-          "title": "Editar Curso",
-          "image": "./imagevideo/gestion_riesgo/editar_curso.png",
-          "src": ""
+          "title": "Matricular Estudiantes (MASIVO)",
+          "image": "./imagevideo/gestion_riesgo/importar_estudiate_gest.png",
+          "src": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/importar_usuarios_gest.mp4"
         },
         {
           "id": 9,
-          "title": "Matricular Estudiantes (MASIVO)",
-          "image": "./imagevideo/gestion_riesgo/importar_estudiate_gest.png",
-          "src": ""
+          "title": "Eliminar/Despublicar Estudiantes",
+          "image": "./imagevideo/gestion_riesgo/eliminar_estudiante_gest.png",
+          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/eliminar_estudiante_gest.mp4"
         },
         {
           "id": 10,
-          "title": "Eliminar/Despublicar Estudiantes",
-          "image": "./imagevideo/gestion_riesgo/eliminar_estudiante_gest.png",
-          "src": ""
-        },
-        {
-          "id": 11,
           "title": "Reportes",
           "image": "./imagevideo/gestion_riesgo/reportes_gest.png",
-          "src": ""
+          "src": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/Reportes.mp4"
         }
       ]
     },
