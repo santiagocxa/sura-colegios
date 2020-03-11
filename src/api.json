@@ -76,31 +76,13 @@
           "id": 1,
           "title": "Ingreso Como Administrador",
           "image": "./imagevideo/vial/admin_vial.png",
-          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/admin_vial.mp4"
+          "src": "https://s3.amazonaws.com/prd-videoteca-s3/videos/132-1580415780.mp4"
         },
         {
           "id": 2,
           "title": "Ingreso Como Estudiante",
           "image": "./imagevideo/vial/est_vial.png",
-          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/ingreso_est_vial.mp4"
-        },
-        {
-          "id": 4,
-          "title": "Matricular Estudiante y Curso",
-          "image": "./imagevideo/vial/reg_vial.png",
-          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/reg_est_vial.mp4"
-        },
-        {
-          "id": 5,
-          "title": "Matricular Estudiante y Curso (MASIVO)",
-          "image": "./imagevideo/vial/import_vial.png",
-          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/masivo_vial.mp4"
-        },
-        {
-          "id": 6,
-          "title": "Reporte De Estudiantes",
-          "image": "./imagevideo/vial/report_vial.png",
-          "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/reporte_vial.mp4"
+          "src": "https://s3.amazonaws.com/prd-videoteca-s3/videos/133-1580415982.mp4"
         }
       ]
     }
