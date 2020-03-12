@@ -8,9 +8,9 @@ function Colleges(props) {
     <div className="Colleges">
       {!props.hidevideo ? (
         <VideoPlayer
-          title="Colegios Viales ARL SURA"
-          src="https://colegiosvialesarlsura.com/videos/colegios_viales_promo.mp4"
-          autoplay={true}
+          title="Capacitación Virtual De 50 Horas Del SGSST"
+          src="https://contenidosdigitalessura.com/videosura/cgr/curso_50_horasintro.mp4"
+          autoplay={false}
         />
       ) : (
         props.containerList &&
