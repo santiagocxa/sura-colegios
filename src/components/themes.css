@@ -1,6 +1,11 @@
 .Themes {
-  grid-column: 1;
-  grid-row: 3 / 5;
+  grid-column: 4 / 4;
+  grid-row: 3 / 3;
   text-align: center;
   width: 100%;
+  display: flex;
+}
+
+.Themes :hover {
+  background-color: #afafaf;
 }

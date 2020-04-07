@@ -8,7 +8,7 @@ class VideoPlayer extends Component {
     return (
       <VideoPlayerLayout>
         <Title title={this.props.title} />
-        <Video autoplay={true} src={this.props.src} />
+        <Video autoplay={false} muted={this.props.muted} src={this.props.src} />
       </VideoPlayerLayout>
     );
   }

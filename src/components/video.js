@@ -9,6 +9,7 @@ class Video extends Component {
           className="Video-content"
           autoPlay={this.props.autoplay}
           src={this.props.src}
+          muted={this.props.muted}
           controls
           controlsList="nodownload"
         />

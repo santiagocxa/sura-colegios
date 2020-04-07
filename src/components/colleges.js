@@ -10,7 +10,7 @@ function Colleges(props) {
         <VideoPlayer
           title="Capacitación Virtual De 50 Horas Del SGSST"
           src="https://contenidosdigitalessura.com/videosura/cgr/curso_50_horasintro.mp4"
-          autoplay={false}
+          muted={true}
         />
       ) : (
         props.containerList &&

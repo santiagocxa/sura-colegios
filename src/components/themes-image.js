@@ -7,8 +7,8 @@ function ThemesImage({ openListClick, item }) {
     openListClick(item);
   };
   return (
-    <div>
-      <img onClick={openClick} className="Image" src={item.image} alt="" />
+    <div className="Themes-title" onClick={openClick}>
+      <div>{item.title}</div>
     </div>
   );
 }
