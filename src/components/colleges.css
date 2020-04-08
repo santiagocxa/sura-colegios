@@ -1,13 +1,16 @@
 .Colleges {
-  grid-column: 4/ 5;
+  grid-column: 4/ 4;
   grid-row: 4/5;
-  width: auto;
+  margin-left: -100px;
+  width: 120%;
   height: 440px;
   border: none;
   padding: 10px;
+  padding-top: 3px;
   overflow-y: scroll;
   overflow-x: hidden;
   display: inline-block;
   background-color: #fbfbfb;
-  margin: 0px;
+  margin-top: 10px;
+  border-top: 1px solid rgb(216, 216, 216);
 }

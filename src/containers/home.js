@@ -4,22 +4,17 @@ import Logo from '../components/logo';
 import Line from '../components/line';
 import Themes from '../components/themes';
 import Colleges from '../components/colleges';
-import Footer from '../components/footer';
-import VideoMediaPlayerContainer from '../containers/video-media-player';
-import VideoMediaPlayer from '../components/video-media-player';
-import VideoPlayer from './video-player';
+import VideoBox from '../components/video-box';
 
 class Home extends Component {
   state = {
-    hideList: true,
-    hidevideo: false
+    hideList: true
   };
 
   openClick = containerPlayList => {
     this.setState({
       containerPlayList,
-      hideList: false,
-      hidevideo: true
+      hideList: false
     });
   };
 
@@ -30,35 +25,35 @@ class Home extends Component {
     });
   };
 
-  closeVideoPlayerClick = event => {
-    this.setState({
-      unhideVideoPlayer: false
-    });
-  };
-
   render() {
     return (
       <HomeLayout>
         <Logo />
         <Line />
         <Themes themes={this.props.data.colleges} openClick={this.openClick} />
+        {!this.state.containerPlayList && (
+          <Colleges
+            containerList={this.props.data.colleges[0]}
+            openVideoPlayerClick={this.openVideoPlayerClick}
+          />
+        )}
         <Colleges
           containerList={this.state.containerPlayList}
-          hidevideo={this.state.hidevideo}
           openVideoPlayerClick={this.openVideoPlayerClick}
         />
-        <Footer />
+        {!this.state.unhideVideoPlayer && (
+          <VideoBox
+            title="Capacitación Virtual De 50 Horas Del SGSST"
+            src="https://contenidosdigitalessura.com/videosura/cgr/curso_50_horasintro.mp4"
+            muted={true}
+          />
+        )}
         {this.state.unhideVideoPlayer && (
-          <VideoMediaPlayerContainer>
-            <VideoMediaPlayer
-              closeVideoPlayerClick={this.closeVideoPlayerClick}
-            >
-              <VideoPlayer
-                title={this.state.contentVideoPlayer.title}
-                src={this.state.contentVideoPlayer.src}
-              />
-            </VideoMediaPlayer>
-          </VideoMediaPlayerContainer>
+          <VideoBox
+            title={this.state.contentVideoPlayer.title}
+            src={this.state.contentVideoPlayer.src}
+            muted={true}
+          />
         )}
       </HomeLayout>
     );
