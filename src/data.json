@@ -6,19 +6,19 @@
       "playlist": [
         {
           "id": 1,
-          "title": "Ingreso Como Administrador",
+          "title": "Ingresar Como Administrador",
           "image": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/imagevideo/gestion_riesgo/inscribirEstGest.png",
           "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/admin_gest.mp4"
         },
         {
           "id": 2,
-          "title": "Ingreso Como Estudiante",
+          "title": "Ingresar Como Estudiante",
           "image": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/imagevideo/gestion_riesgo/ingreso_estudiante_gest.png",
           "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/ingreso_est_gest.mp4"
         },
         {
           "id": 3,
-          "title": "Inscribir Estudiante Y Matricular Curso",
+          "title": "Inscribir Estudiante Y Matricularlo A Cursos",
           "image": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/imagevideo/gestion_riesgo/crear_estudiante_gest.png",
           "src": "https://s3.us-east-2.amazonaws.com/videoscolegiosgv/reg_est_gest.mp4"
         },
@@ -48,7 +48,7 @@
         },
         {
           "id": 8,
-          "title": "Matricular Estudiantes (MASIVO)",
+          "title": "Importar Listado De Estudiantes",
           "image": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/imagevideo/gestion_riesgo/importar_estudiate_gest.png",
           "src": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/importar_usuarios_gest.mp4"
         },
@@ -72,13 +72,13 @@
       "playlist": [
         {
           "id": 1,
-          "title": "Ingreso Como Administrador",
+          "title": "Ingresar Como Administrador",
           "image": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/imagevideo/vial/admin_vial.png",
           "src": "https://s3.amazonaws.com/prd-videoteca-s3/videos/132-1580415780.mp4"
         },
         {
           "id": 2,
-          "title": "Ingreso Como Estudiante",
+          "title": "Ingresar Como Estudiante",
           "image": "https://videoscolegiosgv.s3.us-east-2.amazonaws.com/imagevideo/vial/est_vial.png",
           "src": "https://s3.amazonaws.com/prd-videoteca-s3/videos/133-1580415982.mp4"
         }

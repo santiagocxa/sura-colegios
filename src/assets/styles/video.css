@@ -1,0 +1,9 @@
+.Video {
+  width: 100%;
+}
+
+.Video-content {
+  outline: none;
+  width: 100%;
+  background: black;
+}

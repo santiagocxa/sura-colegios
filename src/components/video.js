@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './video.css';
+import '../assets/styles/video.css';
 
 class Video extends Component {
   render() {
     return (
-      <div className="Video">
+      <div className='Video'>
         <video
-          className="Video-content"
+          className='Video-content'
           autoPlay={this.props.autoplay}
           src={this.props.src}
           muted={this.props.muted}
           controls
-          controlsList="nodownload"
+          controlsList='nodownload'
         />
       </div>
     );

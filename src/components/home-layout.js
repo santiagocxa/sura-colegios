@@ -1,8 +1,6 @@
 import React from 'react';
-import './home-layout.css';
+import '../assets/styles/home-layout.css';
 
-function HomeLayout(props) {
-  return <section className="HomeLayout">{props.children}</section>;
-}
+const HomeLayout = (props) => <section className="Home-layout">{props.children}</section>;
 
 export default HomeLayout;

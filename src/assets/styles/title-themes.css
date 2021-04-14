@@ -1,0 +1,9 @@
+.TitleThemes {
+  padding-left: 6%;
+  background: #0033a0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: white;
+}

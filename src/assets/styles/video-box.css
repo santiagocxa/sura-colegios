@@ -1,0 +1,8 @@
+.Video-box {
+  grid-column: 1 / 4;
+  grid-row: 4 / 4;
+  width: 100%;
+  padding: 0 5% 0 5%;
+  box-sizing: border-box;
+  padding-top: 20px;
+}

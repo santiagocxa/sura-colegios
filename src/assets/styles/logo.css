@@ -1,0 +1,7 @@
+.Logo {
+  grid-column: 1 / 1;
+  grid-row: 1;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 5% 0 0 17%;
+}

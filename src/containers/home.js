@@ -2,26 +2,25 @@ import React, { Component } from 'react';
 import HomeLayout from '../components/home-layout';
 import Logo from '../components/logo';
 import Line from '../components/line';
-import Themes from '../components/themes';
 import Colleges from '../components/colleges';
 import VideoBox from '../components/video-box';
 
 class Home extends Component {
   state = {
-    hideList: true
+    hideList: true,
   };
 
-  openClick = containerPlayList => {
+  openClick = (containerPlayList) => {
     this.setState({
       containerPlayList,
-      hideList: false
+      hideList: false,
     });
   };
 
-  openVideoPlayerClick = contentVideoPlayer => {
+  openVideoPlayerClick = (contentVideoPlayer) => {
     this.setState({
       contentVideoPlayer,
-      unhideVideoPlayer: true
+      unhideVideoPlayer: true,
     });
   };
 
@@ -30,29 +29,22 @@ class Home extends Component {
       <HomeLayout>
         <Logo />
         <Line />
-        <Themes themes={this.props.data.colleges} openClick={this.openClick} />
         {!this.state.containerPlayList && (
           <Colleges
-            containerList={this.props.data.colleges[0]}
+            containerList={this.props.data}
             openVideoPlayerClick={this.openVideoPlayerClick}
           />
         )}
-        <Colleges
-          containerList={this.state.containerPlayList}
-          openVideoPlayerClick={this.openVideoPlayerClick}
-        />
         {!this.state.unhideVideoPlayer && (
           <VideoBox
-            title="Capacitación Virtual De 50 Horas Del SGSST"
-            src="https://contenidosdigitalessura.com/videosura/cgr/curso_50_horasintro.mp4"
-            muted={true}
+            title='Ingresar Como Estudiante'
+            src='https://s3.us-east-2.amazonaws.com/videoscolegiosgv/ingreso_est_gest.mp4'
           />
         )}
         {this.state.unhideVideoPlayer && (
           <VideoBox
             title={this.state.contentVideoPlayer.title}
             src={this.state.contentVideoPlayer.src}
-            muted={true}
           />
         )}
       </HomeLayout>

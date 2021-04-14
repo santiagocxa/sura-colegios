@@ -1,12 +1,12 @@
 import React from 'react';
-import '../components/video-box.css';
+import '../assets/styles/video-box.css';
 import Title from './title';
 import Video from './video';
 
 function VideoBox(props) {
   return (
-    <div className="VideoBox">
-      <Video autoplay={true} muted={props.muted} src={props.src} />
+    <div className='Video-box'>
+      <Video src={props.src} />
       <Title title={props.title} />
     </div>
   );
