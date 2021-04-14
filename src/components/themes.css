@@ -1,0 +1,13 @@
+.Themes {
+  grid-column: 4 / 4;
+  grid-row: 3 / 3;
+  text-align: center;
+  width: 120%;
+  margin-left: -100px;
+  display: flex;
+}
+
+.Themes :hover {
+  background-color: #0033a0;
+  color: white;
+}
