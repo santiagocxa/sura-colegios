@@ -4,5 +4,22 @@
   width: 100%;
   padding: 0 5% 0 5%;
   box-sizing: border-box;
-  padding-top: 20px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .Video-box {
+    grid-column: 1 / 5;
+    grid-row: 4 / 4;
+    padding-top: 6%;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .Video-box {
+    padding: 0;
+  }
 }
