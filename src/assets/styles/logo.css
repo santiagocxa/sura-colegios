@@ -5,3 +5,15 @@
   box-sizing: border-box;
   padding: 5% 0 0 17%;
 }
+
+@media screen and (max-width: 425px) {
+
+  .Logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .Logo img {
+    width: 90px;
+  }
+}
