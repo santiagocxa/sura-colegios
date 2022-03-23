@@ -14,15 +14,6 @@
   background: rgb(239, 237, 255);
 }
 
-.College-image {
-  vertical-align: middle;
-  width: 50%;
-  border: 1px solid #d0d8d0;
-  position: relative;
-  margin-right: 10px;
-  display: none;
-}
-
 .College-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -31,7 +22,8 @@
   border: transparent 0px;
   height: 30px;
   margin: 0;
-  margin-top: 5px;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
